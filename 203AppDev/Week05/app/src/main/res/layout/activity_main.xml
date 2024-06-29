@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:onClick="insert"
+        android:text="추가"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:onClick="select_all"
+        android:text="전체 조회"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/btn_drop"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:onClick="drop"
+        android:text="전체 삭제"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp" />
+
+</LinearLayout>
